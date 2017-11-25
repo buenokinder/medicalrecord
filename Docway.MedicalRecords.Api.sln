@@ -1,0 +1,42 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Presentation", "1.1 - Presentation", "{3A31AEC6-72DA-4779-9F91-3DBD1E3A154F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Application", "1.2 - Application", "{9726E8DD-2617-4C25-91CF-EFF1DC598614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docway.MedicalRecords.Presentation", "Docway.MedicalRecords.Presentation\Docway.MedicalRecords.Presentation.csproj", "{5598131E-3EFF-4FB9-82DD-64AA50E3A349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 - Domain", "1.3 - Domain", "{B7AB1A05-2BD4-46BB-ABB8-79F14B827857}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4 - Data", "1.4 - Data", "{73620180-9AD0-496E-85DF-60088F6E1C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docway.MedicalRecords.Domain.Core", "Docway.MedicalRecords.Domain.Core\Docway.MedicalRecords.Domain.Core.csproj", "{93890B36-3FB9-48D3-BEE4-BBE2AA96AA09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docway.MedicalRecords.Application", "Docway.MedicalRecords.Application\Docway.MedicalRecords.Application.csproj", "{2E5A89B1-69EC-4968-B299-FB987FC501DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5598131E-3EFF-4FB9-82DD-64AA50E3A349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5598131E-3EFF-4FB9-82DD-64AA50E3A349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5598131E-3EFF-4FB9-82DD-64AA50E3A349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5598131E-3EFF-4FB9-82DD-64AA50E3A349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93890B36-3FB9-48D3-BEE4-BBE2AA96AA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93890B36-3FB9-48D3-BEE4-BBE2AA96AA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93890B36-3FB9-48D3-BEE4-BBE2AA96AA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93890B36-3FB9-48D3-BEE4-BBE2AA96AA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5A89B1-69EC-4968-B299-FB987FC501DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5A89B1-69EC-4968-B299-FB987FC501DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5A89B1-69EC-4968-B299-FB987FC501DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5A89B1-69EC-4968-B299-FB987FC501DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5598131E-3EFF-4FB9-82DD-64AA50E3A349} = {3A31AEC6-72DA-4779-9F91-3DBD1E3A154F}
+		{93890B36-3FB9-48D3-BEE4-BBE2AA96AA09} = {B7AB1A05-2BD4-46BB-ABB8-79F14B827857}
+		{2E5A89B1-69EC-4968-B299-FB987FC501DE} = {9726E8DD-2617-4C25-91CF-EFF1DC598614}
+	EndGlobalSection
+EndGlobal
