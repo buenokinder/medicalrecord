@@ -1,4 +1,5 @@
-﻿namespace Docway.MedicalRecords.Presentation.Controllers
+﻿
+namespace Docway.MedicalRecords.Presentation.Controllers
 {
     using System;
     using System.Collections.Generic;
